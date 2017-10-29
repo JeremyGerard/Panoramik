@@ -27,6 +27,9 @@
         margin-top: 60px;
         margin-right: 60px;
         margin-left: 60px;
-        background-image: url('~/assets/forest.jpg');
+        background: url("../assets/forest.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
-</style>
