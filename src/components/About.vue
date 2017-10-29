@@ -1,6 +1,6 @@
 <template>
     <div id="about">
-        <div :style="{ 'background-image': 'url(' + backgroundImage + ')' }"></div>
+        <b-img center src="./assets/forest.jpg" fluid alt="Responsive image"/>
         <h1>Panoramik vous accompagne dans vos projets par la réalisation
             d'images de synthèse pour:
             Architectes & designers / Investissement immobilier / Publicité / Privé
@@ -14,10 +14,7 @@
 
 <script>
     export default {
-        name: 'about',
-        data: {
-            backgroundImage: './assets/forest.jpg',
-        }
+        name: 'about'
     }
 </script>
 <!-- styling for the component -->

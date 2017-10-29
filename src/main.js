@@ -22,7 +22,7 @@ import Portfolio from './components/Portfolio'
 const routes = [
 { path: '/', component: Home },
 { path: '/about', component: About },
-    {path: '/portfolio', component: Portfolio}
+{path: '/portfolio', component: Portfolio}
 ]
 
 // Create the router instance and pass the `routes` option
