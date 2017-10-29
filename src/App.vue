@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <router-link v-bind:to="'/about'">Contact</router-link>
     <router-view/>
   </div>
 </template>

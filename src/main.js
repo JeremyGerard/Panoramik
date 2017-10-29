@@ -6,10 +6,28 @@ import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import VueRouter from 'vue-router'
 
-Vue.use(BootstrapVue);
-Vue.config.productionTip = false
+Vue.use(VueRouter)
+Vue.use(BootstrapVue)
 
+//Components
+import Home from './components/HelloWorld'
+import About from './components/About'
+
+//Define routes
+const routes = [
+{ path: '/', component: Home },
+{ path: '/about', component: About }
+]
+
+// Create the router instance and pass the `routes` option
+// You can pass in additional options here, but let's
+// keep it simple for now.
+const router = new VueRouter({
+    routes, // short for routes: routes
+    mode: 'history'
+})
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
