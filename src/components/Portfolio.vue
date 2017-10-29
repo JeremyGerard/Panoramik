@@ -6,7 +6,7 @@
         <img v-img:my-group src="../assets/project/NOVO_perspective_N0.jpg">
         <img v-img:my-group src="../assets/project/BREST_RPA_RE_DAY_04.jpg">
         <img v-img:my-group src="../assets/project/BREST_RPA_RE_NIGHT_07.jpg">
-
+    </div>
 
 </template>
 
