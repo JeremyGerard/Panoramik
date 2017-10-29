@@ -1,5 +1,6 @@
 <template>
     <div id="about">
+        <div :style="{ 'background-image': 'url(' + backgroundImage + ')' }">
         <h1>Panoramik vous accompagne dans vos projets par la réalisation
             d'images de synthèse pour:
             Architectes & designers / Investissement immobilier / Publicité / Privé
@@ -27,5 +28,4 @@
         margin-top: 60px;
         margin-right: 60px;
         margin-left: 60px;
-        background-image: url("./assets/forest.png")
     }
