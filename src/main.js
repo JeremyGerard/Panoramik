@@ -14,7 +14,7 @@ Vue.use(BootstrapVue)
 //Components
 import Home from './components/HelloWorld'
 import About from './components/About'
-import POrtfolio from './components/Portfolio'
+import Portfolio from './components/Portfolio'
 
 //Define routes
 const routes = [
