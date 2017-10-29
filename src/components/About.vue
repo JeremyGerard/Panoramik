@@ -27,6 +27,6 @@
         margin-top: 60px;
         margin-right: 60px;
         margin-left: 60px;
-        background-image: url('~/assets/mountain.jpg');
+        background-image: url('~/assets/forest.jpg');
     }
 </style>

@@ -14,11 +14,13 @@ Vue.use(BootstrapVue)
 //Components
 import Home from './components/HelloWorld'
 import About from './components/About'
+import POrtfolio from './components/Portfolio'
 
 //Define routes
 const routes = [
 { path: '/', component: Home },
-{ path: '/about', component: About }
+{ path: '/about', component: About },
+    {path: '/portfolio', component: Portfolio}
 ]
 
 // Create the router instance and pass the `routes` option
