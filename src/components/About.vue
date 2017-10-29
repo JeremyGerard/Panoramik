@@ -1,13 +1,11 @@
 <template>
     <div id="about">
-        <div v-bind:style='{ backgroundImage: "url(" + ./assets/forest.jpg + ")", }'>
-            <h1>Panoramik vous accompagne dans vos projets par la réalisation
+        <h1>Panoramik vous accompagne dans vos projets par la réalisation
             d'images de synthèse pour:
             Architectes & designers / Investissement immobilier / Publicité / Privé
             ​
             Le studio adopte une approche sensible dans la contextualisation et l'ambiance de vos projets. Le traitement des images visent à créer un sentiment global et unique.</h1>
-            <h2>contact.studiopanoramik@gmail.com</h2>
-        </div>
+        <h2>contact.studiopanoramik@gmail.com</h2>
     </div>
 
 
@@ -29,4 +27,5 @@
         margin-top: 60px;
         margin-right: 60px;
         margin-left: 60px;
+        background-image: url("./assets/forest.png")
     }
