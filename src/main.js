@@ -35,9 +35,6 @@ new Vue({
   el: '#app',
   template: '<App/>',
   components: { App },
-  data: {
-      backgroundImage: './assets/forest.jpg',
-  },
   //pass in the router to the Vue instance
   router
 }).$mount('#app')//mount the router on the app

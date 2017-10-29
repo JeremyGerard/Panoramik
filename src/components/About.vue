@@ -14,7 +14,10 @@
 
 <script>
     export default {
-        name: 'about'
+        name: 'about',
+        data: {
+            backgroundImage: './assets/forest.jpg',
+        }
     }
 </script>
 <!-- styling for the component -->
