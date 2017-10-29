@@ -1,6 +1,6 @@
 <template>
     <div id="about">
-        <div :style="{ 'background-image': 'url(' + backgroundImage + ')' }">
+        <div :style="{ 'background-image': 'url(' + backgroundImage + ')' }"></div>
         <h1>Panoramik vous accompagne dans vos projets par la réalisation
             d'images de synthèse pour:
             Architectes & designers / Investissement immobilier / Publicité / Privé
