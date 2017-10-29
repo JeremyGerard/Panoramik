@@ -27,7 +27,7 @@
         margin-top: 60px;
         margin-right: 60px;
         margin-left: 60px;
-        background: url("../assets/forest.jpg") no-repeat center center fixed;
+        background: url('../assets/forest.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
