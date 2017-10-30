@@ -3,7 +3,7 @@
         <b-container class="bv-example-row">
             <b-row class="justify-content-md-center" align-v="center">
                 <b-col sm="6">
-                    <b-img fluid alt="Responsive image"><img v-img:my-group src="../assets/project/APS_Perspective.jpg"></b-col></b-img>
+                    <b-img fluid alt="Responsive image"><img v-img:my-group src="../assets/project/APS_Perspective.jpg"></b-img></b-col>
                 <b-col sm="6">
                     <img v-img:my-group src="../assets/project/PERS COEUR ILOT.jpg"></b-col>
                 <b-col sm="6">
