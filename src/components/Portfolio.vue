@@ -8,6 +8,7 @@
                 <b-col sm="6"><img v-img:my-group src="../assets/project/NOVO_perspective_N0.jpg"></b-col>
                 <b-col sm="6"><img v-img:my-group src="../assets/project/BREST_RPA_RE_DAY_04.jpg"></b-col>
                 <b-col sm="6"><img v-img:my-group src="../assets/project/BREST_RPA_RE_NIGHT_07.jpg"></b-col>
+                <b-col sm="6"><b-img src="https://lorempixel.com/1024/400/" fluid alt="Responsive image" /></b-col>
             </b-row>
         </b-container>
     </div>
