@@ -1,6 +1,5 @@
 <template>
     <div id="about">
-        <img src="../assets/forest.jpg"/>
         <h1>Panoramik vous accompagne dans vos projets par la réalisation
             d'images de synthèse pour:
             Architectes & designers / Investissement immobilier / Publicité / Privé
