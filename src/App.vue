@@ -23,6 +23,8 @@ export default {
         font-family: Helvetica;
         font-style: italic;
         font-size: 16px;
+        text-align: center;
+        margin-top: 60px;
     }
 </style>
 
