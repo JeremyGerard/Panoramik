@@ -5,7 +5,7 @@
             Architectes & designers / Investissement immobilier / Publicité / Privé
             ​
             Le studio adopte une approche sensible dans la contextualisation et l'ambiance de vos projets. Le traitement des images visent à créer un sentiment global et unique.</h1>
-        <h2>contact.studiopanoramik@gmail.com</h2>
+        <h2 class="example">contact.studiopanoramik@gmail.com</h2>
     </div>
 
 
@@ -17,6 +17,12 @@
     }
 </script>
 <!-- styling for the component -->
+<style scoped>
+    .example {
+        color: red;
+    }
+</style>
+
 <style>
     #about {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
