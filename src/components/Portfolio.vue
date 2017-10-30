@@ -1,11 +1,11 @@
 <template>
     <div id="portfolio">
-        <img v-img:my-group src="../assets/project/APS_Perspective.jpg">
-        <img v-img:my-group src="../assets/project/PERS COEUR ILOT.jpg">
-        <img v-img:my-group src="../assets/project/NOVO_perspective_N1.jpg">
-        <img v-img:my-group src="../assets/project/NOVO_perspective_N0.jpg">
-        <img v-img:my-group src="../assets/project/BREST_RPA_RE_DAY_04.jpg">
-        <img v-img:my-group src="../assets/project/BREST_RPA_RE_NIGHT_07.jpg">
+        <b-col sm="6"><img v-img:my-group src="../assets/project/APS_Perspective.jpg"></b-col>
+        <b-col sm="6"><img v-img:my-group src="../assets/project/PERS COEUR ILOT.jpg"></b-col>
+        <b-col sm="6"><img v-img:my-group src="../assets/project/NOVO_perspective_N1.jpg"></b-col>
+        <b-col sm="6"><img v-img:my-group src="../assets/project/NOVO_perspective_N0.jpg"></b-col>
+        <b-col sm="6"><img v-img:my-group src="../assets/project/BREST_RPA_RE_DAY_04.jpg"></b-col>
+        <b-col sm="6"><img v-img:my-group src="../assets/project/BREST_RPA_RE_NIGHT_07.jpg"></b-col>
     </div>
 
 </template>
