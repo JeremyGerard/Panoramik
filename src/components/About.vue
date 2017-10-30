@@ -1,11 +1,12 @@
 <template>
     <div id="about">
-        <h1>Panoramik vous accompagne dans vos projets par la réalisation
+        <h1 class="title">Panoramik vous accompagne dans vos projets par la réalisation
             d'images de synthèse pour:
             Architectes & designers / Investissement immobilier / Publicité / Privé
             ​
             Le studio adopte une approche sensible dans la contextualisation et l'ambiance de vos projets. Le traitement des images visent à créer un sentiment global et unique.</h1>
-        <h2 class="example">contact.studiopanoramik@gmail.com</h2>
+        <h2 class="lien">contact.studiopanoramik@gmail.com</h2>
+
     </div>
 
 
@@ -18,8 +19,16 @@
 </script>
 <!-- styling for the component -->
 <style scoped>
-    .example {
-        color: red;
+    .title {
+        color: black;
+        font-family: Helvetica;
+        font-size: 16px;
+    }
+    .lien {
+        color: black;
+        font-family: Helvetica;
+        text-decoration: underline;
+        font-size: 16px;
     }
 </style>
 
