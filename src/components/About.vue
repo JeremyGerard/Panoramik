@@ -22,12 +22,14 @@
     .title {
         color: black;
         font-family: Helvetica;
+        font-style: oblique;
         font-size: 16px;
     }
     .lien {
         color: black;
         font-family: Helvetica;
         text-decoration: underline;
+        font-style: oblique;
         font-size: 16px;
     }
 </style>
