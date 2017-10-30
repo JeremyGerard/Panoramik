@@ -5,7 +5,6 @@ import App from './App'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
 import VueImg from 'v-img'
-import style from 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
