@@ -5,6 +5,7 @@ import App from './App'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
 import VueImg from 'v-img'
+import {VueMasonryPlugin} from 'vue-masonry';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -12,6 +13,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 Vue.use(VueImg)
+Vue.use(VueMasonryPlugin)
 
 //Components
 import Home from './components/HelloWorld'
