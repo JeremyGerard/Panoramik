@@ -39,7 +39,7 @@
         methods: {
             transform(collection) {
                 const imageUrl =
-                    this.cloudinary.url(collection.imageId, { height: 150, width: 300, crop: "fit", quality: 'auto'});
+                    this.cloudinary.url(collection.imageId, { height: 150, crop: "fit", quality: 'auto'});
                 return Object.assign(collection, { imageUrl });
             }
         },
@@ -81,8 +81,8 @@
         padding-top: 16px;
     }
     .cards {
-        column-count: 5;
-        column-gap: 0em;
+        column-count: 1;
+        column-gap: 1em;
     }
     .wrapper {
         padding: 15px;
