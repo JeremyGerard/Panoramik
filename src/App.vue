@@ -7,9 +7,10 @@
               <b-col><router-link v-bind:to="'/about'">Contact</router-link></b-col>
           </b-row>
       </b-container>
-      <div class="cards" v-masonry transition-duration="0.3s" item-selector=".card">
-          <card v-for="collection in collections" :key="collection.imageId" :collection="collection"></card>
-          <card v-for="collection in collections" :key="collection.imageId" :collection="collection"></card>
+      <div v-masonry transition-duration="0.3s" item-selector=".card">
+          <div v-masonry-tile class="item" v-for="(collection, index) in collections">
+              <card :key="collection.imageId" :collection="collection"></card>
+          </div>
       </div>
     <router-view/>
   </div>
