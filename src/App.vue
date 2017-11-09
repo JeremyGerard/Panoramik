@@ -81,7 +81,7 @@
         padding-top: 16px;
     }
     .cards {
-        column-count: 1;
+        column-count: 2;
         column-gap: 1em;
     }
     .wrapper {
