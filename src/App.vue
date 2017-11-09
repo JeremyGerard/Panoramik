@@ -7,14 +7,45 @@
               <b-col><router-link v-bind:to="'/about'">Contact</router-link></b-col>
           </b-row>
       </b-container>
+      <div class="cards">
+          <card v-for="collection in collections" :key="collection.imageId" :collection="collection"></card>
+      </div>
     <router-view/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+
+    import cloudinary from 'cloudinary-core';
+    import data from './db.json';
+
+    import Card from './components/Card';
+
+    export default {
+        name: 'app',
+        data() {
+            return {
+                cloudinary: null,
+                collections: []
+            }
+        },
+        created() {
+            this.cloudinary = cloudinary.Cloudinary.new({
+                cloud_name: 'panoramik'
+            })
+            this.collections = data.map(this.transform);
+        },
+        methods: {
+            transform(collection) {
+                const imageUrl =
+                    this.cloudinary.url(collection.imageId, { width: 300, crop: "fit" });
+                return Object.assign(collection, { imageUrl });
+            }
+        },
+        components: {
+            Card
+        }
+    }
 </script>
 
 <style scoped>
