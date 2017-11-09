@@ -15,8 +15,8 @@
 <style>
     .card {
         background: #F5F5F5;
-        padding: 10px;
-        margin: 0 0 1em;
+        //padding: 10px;
+        //margin: 0 0 1em;
         width: 100%;
         cursor: pointer;
         transition: all 100ms ease-in-out;
