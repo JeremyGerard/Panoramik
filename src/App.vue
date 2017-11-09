@@ -39,7 +39,7 @@
         methods: {
             transform(collection) {
                 const imageUrl =
-                    this.cloudinary.url(collection.imageId, { width: 300, crop: "fit", quality: 'auto'});
+                    this.cloudinary.url(collection.imageId, { height: 150, width: 300, crop: "fit", quality: 'auto'});
                 return Object.assign(collection, { imageUrl });
             }
         },
