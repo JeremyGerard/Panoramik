@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="cards">
-      <card v-for="collection in collections" :key="collection.imageId" :collection="collection"></card>
-    </div>
     <b-carousel id="carousel1"
                 style="text-shadow: 1px 1px 2px #333;"
                 controls
