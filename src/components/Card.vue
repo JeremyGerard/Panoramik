@@ -2,8 +2,6 @@
     <div class="card">
         <div class="card-content">
             <img :src="collection.imageUrl" :alt="collection.collector">
-            <h4>{{collection.collector}}</h4>
-            <p>{{collection.description}}</p>
         </div>
     </div>
 </template>
