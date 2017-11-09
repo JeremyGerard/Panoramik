@@ -9,6 +9,7 @@
       </b-container>
       <div class="cards">
           <card v-for="collection in collections" :key="collection.imageId" :collection="collection"></card>
+          <card v-for="collection in collections" :key="collection.imageId" :collection="collection"></card>
       </div>
     <router-view/>
   </div>
